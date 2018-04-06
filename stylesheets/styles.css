@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding:40px;
   font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:300;
 }
@@ -188,6 +188,12 @@ img.profile
   margin-bottom:30px;
 }
 
+img.pdf
+{
+  width: 30px;
+  margin-bottom:50px;
+}
+
 img.company
 {
   width: 40px;
@@ -195,7 +201,6 @@ img.company
 
 .download-link
 {
-  position: absolute;
   top: 10px;
   right: 10px;
 }
@@ -267,15 +272,37 @@ img.company
   .download-link {
     display: none;
   }
-  img.profile {
-    display: none;
-    margin-bottom: 0;
-  }
+  
   body {
     padding:0.4in;
     font-size:10pt;
   }
   section {
-    width: 600px;
+    width: 550px;
+  }
+  header {
+    width:250px;
+    float:left;
   }
 }
+
+p.bio {
+    word-wrap: break-word;
+}
+
+
+
+
+div.left {
+    float: left;
+    padding: 5px; 
+    padding-left: 20px;   
+}
+
+div.right {
+    float: left;
+    padding: 5px;    
+}
+
+
+
